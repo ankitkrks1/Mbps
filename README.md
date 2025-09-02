@@ -1,6 +1,6 @@
 # Bits to Bytes Converter Extension
 
-A very simple Chrome extension that converts internet speed values from **bits/s** to **MBps** when you click a button.
+A very simple Chrome extension that converts internet speed values from **bits/s** to **MBps** when you click a button works on fast.com.
 
 ## Features
 - No icons, no logos – minimal setup.
