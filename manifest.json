@@ -1,0 +1,10 @@
+{
+  "manifest_version": 3,
+  "name": "MBps",
+  "version": "1.0",
+  "description": "Converts bits/s to MBps when you click a button on fast.com",
+  "permissions": ["scripting", "activeTab"],
+  "action": {
+    "default_popup": "popup.html"
+  }
+}
