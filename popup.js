@@ -23,4 +23,17 @@ function inMbps() {
     units.innerHTML = "MBps";
     console.log("units.innerHTML after", units.innerHTML);
   }
+
+  const uploadEl = document.getElementById("upload-value");
+    if (uploadEl) {
+        console.log("uploadEl.innerHTML in bits/s", uploadEl.innerHTML);
+        uploadEl.innerHTML = (parseFloat(uploadEl.innerHTML) / 8).toFixed(1);
+        console.log("uploadEl.innerHTML in MBps", uploadEl.innerHTML);
+        const uploadUnits = document.getElementById("upload-units");
+        if (uploadUnits) {
+            console.log("uploadUnits.innerHTML before", uploadUnits.innerHTML);
+            uploadUnits.innerHTML = "MBps";
+            console.log("uploadUnits.innerHTML after", uploadUnits.innerHTML);
+        }
+    }
 }
